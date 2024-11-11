@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ .letters-container li {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(13, 13, 222, 0.767);
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  width: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 5px black;
+ }
+
+ .user-input {
+  width: 80%;
+ }
